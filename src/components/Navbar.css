@@ -1,0 +1,102 @@
+.navbar {
+  /* height: 10vh;   // causing problem for responsiveness */
+  background-color: #272727;
+  justify-content: space-between;
+  padding: 12px 36px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  gap: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  align-items: center;
+  position: relative;
+}
+
+
+.logo span {
+  position: absolute;
+  left: 73px;
+  top: 1px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  font-size: 16px;
+
+}
+
+/* 
+.navbar ul .link {
+  margin: 0 12px;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+  transition: 0.4s all;
+}
+*/
+.navbar ul .link::after {
+  background-color: gold;
+  bottom: -5px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  transition: 0.4s all;
+}
+
+.navbar ul .link-active::after {
+  background-color: gold;
+  bottom: -5px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  transition: 0.4s all;
+}
+
+.navbar ul .link:hover::after {
+  width: 100%;
+}
+
+.link,
+.link-active {
+  position: relative;
+}
+
+.logout {
+  gap: 25px;
+
+}
+
+.logout span {
+  cursor: pointer;
+}
+
+.logout .btn {
+  border: 2px solid crimson;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 24px;
+  background-color: crimson;
+  color: white;
+}
+
+.btn:hover {
+  background-color: transparent;
+}

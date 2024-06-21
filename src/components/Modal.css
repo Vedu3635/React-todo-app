@@ -1,0 +1,81 @@
+.backDrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 20;
+    background-color: black;
+    opacity: 0.55;
+}
+
+.alert {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #272727;
+    height: 250px;
+    width: 550px;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    z-index: 50;
+    padding: 35px;
+    color: white;
+    border-radius: 10px;
+}
+
+.alert-light {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f0f8ff;
+    height: 250px;
+    width: 550px;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    z-index: 50;
+    padding: 35px;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-grp {
+    align-self: flex-end;
+
+}
+
+.btn-red {
+    border: 2px solid crimson;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 7px 20px;
+    height: 43px;
+    background-color: crimson;
+    color: white;
+    margin: 0px 25px;
+}
+
+.btn-red:hover {
+    background-color: transparent;
+    color: crimson;
+}
+
+.btn-ylw {
+    border: 2px solid gold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 7px 20px;
+    height: 43px;
+    background-color: gold;
+    color: white;
+}
+
+.btn-ylw:hover {
+    background-color: transparent;
+    color: gold;
+
+}

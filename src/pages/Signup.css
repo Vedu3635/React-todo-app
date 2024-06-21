@@ -1,0 +1,69 @@
+.containerSignup {
+    background-color: #393939;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.backgroundSignup {
+    border-radius: 10px;
+    margin: auto;
+    max-width: 600px;
+    padding: 50px;
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+
+}
+
+.formSignup {
+    margin-top: 20px;
+
+}
+
+.formSignup .inputvalid {
+    /* padding: 10px 325px 10px 10px; */
+    background-color: #ebf7ff;
+    border: 2px solid #ebf7ff;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px 12px;
+    width: 100%;
+    color: black;
+
+}
+
+.formSignup .invalid-input {
+    /* padding: 10px 325px 10px 10px; */
+    color: black;
+    background-color: #ffd0d2;
+    border: 2px solid red;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px 12px;
+    width: 100%;
+
+
+}
+
+.formSignup button {
+    background-color: crimson;
+    border: 2px solid #966670;
+    border-radius: 8px;
+    color: #fff;
+    cursor: not-allowed;
+    font-size: 16px;
+    opacity: .65;
+    padding: 8px 24px;
+    transition: all .3s;
+}
+
+.formSignup .inputSign {
+
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 36px 0px;
+}
+
+.formSignup p {
+    color: red;
+}

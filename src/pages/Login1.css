@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-login {
+  background-color: #393939;
+  min-height: 100vh;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+
+  /* border: 2px solid black; */
+}
+
+.container-login-light {
+  background-color: #393939;
+  min-height: 100vh;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: center;
+  color: black;
+}
+
+.container h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.background {
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #272727;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container-light .background {
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+}
+
+.form {
+  align-self: flex-start;
+  position: relative;
+}
+
+.mail {
+  margin: 30px;
+  flex-direction: column;
+  align-items: start;
+  gap: 3px;
+
+}
+
+.password {
+  gap: 3px;
+  flex-direction: column;
+  margin: 30px;
+  align-items: start;
+}
+
+.form .input {
+  border: 2px solid #ebf7ff;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 10px 270px 10px 5px;
+}
+
+.form .invalid-input {
+  border: 2px solid red;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 10px 270px 10px 5px;
+  background-color: #ffd0d2;
+}
+
+.form button {
+
+  text-align: center;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: crimson;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.form button:hover {
+  background-color: #e04343;
+}
+
+.password .error,
+.mail .error {
+  font-size: 15px;
+  color: red;
+}
